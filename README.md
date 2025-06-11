@@ -2,6 +2,8 @@
 
 A Python-based tool developed by Ketabbase under the supervision of Dr. Mahsa Torabi to track and analyze web search behavior. This tool automatically records search queries, navigation patterns, and interaction with web pages while users browse.
 
+![image](https://github.com/user-attachments/assets/1b441e9d-57dc-444f-8099-777b346145de)
+
 ## Research Goals
 
 This tool is designed to support research in the following areas:
