@@ -38,9 +38,18 @@ This tool is designed to support research in the following areas:
 ## Installation
 
 ### Quick Install (Recommended)
+
+To install the latest version directly from GitHub, run:
+
 ```bash
-pip install git+https://github.com/ketabbase/search-tracker.git
+pip install git+https://github.com/ketabbase/search-tracker.git@master
 ```
+
+- Make sure you have the latest version of pip:
+  ```bash
+  python -m pip install --upgrade pip
+  ```
+- This will always install the latest code from the master branch.
 
 ### Install from Source
 1. Clone the repository:
@@ -48,7 +57,6 @@ pip install git+https://github.com/ketabbase/search-tracker.git
 git clone https://github.com/ketabbase/search-tracker.git
 cd search-tracker
 ```
-
 2. Install the package:
 ```bash
 pip install -e .
