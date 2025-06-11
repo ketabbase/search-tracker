@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Ketabbase"
+    given-names: "Research Team"
+  - family-names: "Torabi"
+    given-names: "Mahsa"
+    affiliation: "Supervisor"
+title: "Search Behavior Tracking Tool"
+version: "1.0.0"
+doi: "10.5281/zenodo.XXXXXXX"  # Replace with your DOI after creating it
+date-released: "2024-03-19"
+repository-code: "https://github.com/yourusername/search-tracker"  # Replace with your repository URL
+keywords:
+  - "search behavior"
+  - "user tracking"
+  - "research tool"
+  - "data collection"
+  - "privacy-focused" 
