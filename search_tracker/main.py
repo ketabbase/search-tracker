@@ -3,7 +3,10 @@ import os
 import sys
 from search_tracker.tracker import SearchTracker
 
+__version__ = "1.0.0"
+
 def show_menu():
+    """Display the main menu"""
     while True:
         print("\n" + "="*50)
         print("Search Tracker - Research Tool")
@@ -23,6 +26,11 @@ def show_menu():
             input("Press Enter to continue...")
 
 def main():
+    """Main entry point for the application"""
+    if len(sys.argv) > 1 and sys.argv[1] == "--version":
+        print(f"Search Tracker version {__version__}")
+        return 0
+
     parser = argparse.ArgumentParser(description='Track and analyze web search behavior')
     parser.add_argument('--data-dir', type=str, help='Directory to save tracking data (default: ./data)')
     args = parser.parse_args()

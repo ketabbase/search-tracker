@@ -37,29 +37,32 @@ This tool is designed to support research in the following areas:
 
 ## Installation
 
-### Prerequisites
-
-- Python 3.6 or higher
-- Chrome browser installed
-- ChromeDriver (will be automatically downloaded by Selenium)
-
-### Install from PyPI
-
+### Quick Install (Recommended)
 ```bash
-pip install search-tracker
+pip install git+https://github.com/ketabbase/search-tracker.git
 ```
 
-### Install from source
-
+### Install from Source
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/search-tracker.git
+git clone https://github.com/ketabbase/search-tracker.git
 cd search-tracker
 ```
 
 2. Install the package:
 ```bash
 pip install -e .
+```
+
+### Prerequisites
+* Python 3.6 or higher
+* Chrome browser installed
+* ChromeDriver (will be automatically downloaded by Selenium)
+
+### Verify Installation
+After installation, you can verify it worked by running:
+```bash
+search-tracker --version
 ```
 
 ## Usage
