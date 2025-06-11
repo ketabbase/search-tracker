@@ -7,6 +7,7 @@ A Python-based tool developed by Ketabbase under the supervision of Dr. Mahsa To
 ![image](https://github.com/user-attachments/assets/1b441e9d-57dc-444f-8099-777b346145de)
 
 To cite: 
+
 Mahsa Torabi. (2025). ketabbase/search-tracker: search-tracker (search-tracker). Zenodo. https://doi.org/10.5281/zenodo.15640401
 
 ## Research Goals
