@@ -2,6 +2,11 @@
 
 A Python-based tool developed by Ketabbase under the supervision of Dr. Mahsa Torabi to track and analyze web search behavior. This tool automatically records search queries, navigation patterns, and interaction with web pages while users browse.
 
+![image](https://github.com/user-attachments/assets/1b441e9d-57dc-444f-8099-777b346145de)
+
+To cite: 
+Mahsa Torabi. (2025). ketabbase/search-tracker: search-tracker (search-tracker). Zenodo. https://doi.org/10.5281/zenodo.15640401
+
 ## Research Goals
 
 This tool is designed to support research in the following areas:
@@ -37,29 +42,40 @@ This tool is designed to support research in the following areas:
 
 ## Installation
 
-### Prerequisites
+### Quick Install (Recommended)
 
-- Python 3.6 or higher
-- Chrome browser installed
-- ChromeDriver (will be automatically downloaded by Selenium)
-
-### Install from PyPI
+To install the latest version directly from GitHub, run:
 
 ```bash
-pip install search-tracker
+pip install git+https://github.com/ketabbase/search-tracker.git@master
 ```
 
-### Install from source
+- Make sure you have the latest version of pip:
+  ```bash
+  python -m pip install --upgrade pip
+  ```
+- This will always install the latest code from the master branch.
 
+### Install from Source
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/search-tracker.git
+git clone https://github.com/ketabbase/search-tracker.git
 cd search-tracker
 ```
-
 2. Install the package:
 ```bash
 pip install -e .
+```
+
+### Prerequisites
+* Python 3.6 or higher
+* Chrome browser installed
+* ChromeDriver (will be automatically downloaded by Selenium)
+
+### Verify Installation
+After installation, you can verify it worked by running:
+```bash
+search-tracker --version
 ```
 
 ## Usage
