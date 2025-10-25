@@ -92,7 +92,10 @@ class SearchTracker:
             sca_index = url.find('&sca', start)
             if sca_index == -1:
                 return None
-            return url[start:sca_index]
+            encoded_query = url[start:sca_index]
+            # Decode URL-encoded query to get readable text
+            decoded_query = urllib.parse.unquote_plus(encoded_query)
+            return decoded_query
         except Exception as e:
             print(f"Error extracting query from URL: {str(e)}")
             return None
